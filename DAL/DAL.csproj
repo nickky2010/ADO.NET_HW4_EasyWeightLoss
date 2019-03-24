@@ -71,12 +71,19 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\dbo.CalorieNorms.sql" />
+    <Content Include="App_Data\dbo.ClientProfiles.sql" />
+    <Content Include="App_Data\dbo.ClientRoles.sql" />
+    <Content Include="App_Data\dbo.Clients.sql" />
+    <Content Include="App_Data\dbo.Products.sql" />
+    <Content Include="App_Data\dbo.Roles.sql" />
+    <Content Include="App_Data\dbo.__MigrationHistory.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
